@@ -20,6 +20,35 @@ const Navbar = () => {
   );
 };
 
-const Wrapper = styled.nav``;
+const Wrapper = styled.nav`
+  display: flex;
+  justify-content: space-between;
+
+  position: static;
+  height: 156px;
+  left: 0px;
+  top: 0px;
+
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1070px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 0.5rem;
+    }
+    a {
+      color: gray;
+      font-size: 1rem;
+      letter-spacing: 0.25rem;
+      padding: 0.5rem;
+      &:hover {
+        border-bottom: 2px solid pink;
+      }
+    }
+  }
+`;
 
 export default Navbar;
