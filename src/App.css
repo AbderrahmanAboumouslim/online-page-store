@@ -4,3 +4,8 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+body {
+  background-color: #ffffff;
+  text-transform: capitalize;
+}
